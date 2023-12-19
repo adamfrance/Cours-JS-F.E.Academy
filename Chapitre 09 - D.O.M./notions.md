@@ -1,0 +1,1 @@
+Le DOM contient les éléments HTML de la page Web. Avec JavaScript, nous pouvons sélectionner et manipuler des parties du DOM. Cela conduit à des pages Web interactives au lieu de pages statiques. Bref, être capable de travailler avec le DOM signifie que vous êtes capable de créer des pages Web interactives ! 

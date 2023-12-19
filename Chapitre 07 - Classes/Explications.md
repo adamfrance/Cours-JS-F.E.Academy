@@ -1,0 +1,11 @@
+## POO : Programmation Orientée Objet
+
+La POO est un paradigme de programmation très important dans lequel le code est structuré en objets, conduisant à un code plus maintenable et réutilisable. Travailler avec la POO vous apprend à vraiment essayer de penser à toutes sortes de sujets dans les objets, en regroupant les propriétés de telle manière qu'elles puissent être enveloppées dans un plan appelé classe. Cela pourrait à son tour hériter des propriétés d’une classe parent.
+
+Par exemple, si nous pensons à un animal, nous pouvons définir certaines propriétés : nom, poids, taille, vitesse maximale, couleurs et bien plus encore. Et puis, si nous pensons à une espèce spécifique de poisson, nous pouvons réutiliser toutes les propriétés de « animal » et y ajouter également quelques propriétés spécifiques au poisson. Idem pour les chiens ; si l'on pense ensuite à un chien, on peut réutiliser toutes les propriétés de « animal » et y ajouter quelques propriétés spécifiques au chien. De cette façon, nous avons le code réutilisable de notre classe animale. Et lorsque nous réalisons que nous avons oublié une propriété très importante pour les nombreux animaux de notre application, il nous suffit de l'ajouter à la classe animal.
+
+Ceci est très important pour Java, .NET et d’autres méthodes classiques d’écriture de code orientées objet. JavaScript ne tourne pas nécessairement autour des objetsCela signifie que nous structurons notre code de telle manière que les objets soient les acteurs centraux de la logique. Les classes sont des plans d'objets. Nous pouvons créer un modèle pour un objet et créer facilement une instance en utilisant le newmot-clé.
+
+Nous avons ensuite vu que les classes peuvent hériter les unes des autres en utilisant le mot-clé extends. Les classes qui s'étendent à partir d'une autre classe devront appeler le constructeur de cette classe avec super() et auront alors automatiquement accès à toutes les propriétés et méthodes du parent. C’est idéal pour le code réutilisable et hautement maintenable.
+
+Enfin, nous avons rencontré des prototypes. Il s'agit du concept JavaScript intégré qui rend les classes possibles. En ajoutant des propriétés et des méthodes à une classe en utilisant prototype, nous pouvons modifier la signature (blueprint) de cette classe. 
